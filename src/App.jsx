@@ -1,5 +1,11 @@
+import { Root } from "postcss";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Root />
+    </>
+  );
 }
 
 export default App;
