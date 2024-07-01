@@ -53,7 +53,40 @@ const Nav = () => {
             </li>
 
             <li>
-              <NavLink>Pages to Read</NavLink>
+              <NavLink
+                to="/pages-to-read"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#071952] border  border-[#071952] outline-none rounded-lg s"
+                    : ""
+                }
+              >
+                Pages to Read
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/testimonial"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#071952] border  border-[#071952] outline-none rounded-lg s"
+                    : ""
+                }
+              >
+                Testimonial
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/pricing"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#071952] border  border-[#071952] outline-none rounded-lg s"
+                    : ""
+                }
+              >
+                Pricing
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -99,6 +132,30 @@ const Nav = () => {
               }
             >
               Pages to Read
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/testimonial"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#071952] border  border-[#071952] outline-none rounded-lg s"
+                  : ""
+              }
+            >
+              Testimonial
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/pricing"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#071952] border  border-[#071952] outline-none rounded-lg s"
+                  : ""
+              }
+            >
+              Pricing
             </NavLink>
           </li>
         </ul>

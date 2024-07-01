@@ -8,6 +8,8 @@ import Whislist from "../components/Whislist/Whislist";
 import PagesToRead from "../pages/PagesToRead/PagesToRead";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import ListedBooks from "../pages/ListedBooks/ListedBooks";
+import Testimonial from "../pages/Testimonial/Testimonial";
+import Pricing from "../pages/Pricing/Pricing";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +43,14 @@ const router = createBrowserRouter([
       {
         path: "/pages-to-read",
         element: <PagesToRead />,
+      },
+      {
+        path: "/testimonial",
+        element: <Testimonial />,
+      },
+      {
+        path: "/pricing",
+        element: <Pricing />,
       },
     ],
   },
