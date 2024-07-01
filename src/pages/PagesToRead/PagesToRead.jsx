@@ -19,7 +19,7 @@ const PagesToRead = () => {
   }, []);
 
   return (
-    <div className="h-[600px] flex justify-center items-center">
+    <div className="h-[600px] w-[100%] overflow-hidden flex justify-center items-center">
       <BarChart
         width={800}
         height={500}

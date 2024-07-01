@@ -24,7 +24,7 @@ const Nav = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm text-lg dropdown-content gap-x-3 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm text-lg dropdown-content gap-x-3 rounded-box z-[1] mt-3 w-52 p-2 shadow bg-white"
           >
             <li>
               <NavLink
@@ -90,7 +90,7 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-2xl text-[#071952] font-bold">
+        <a className="btn  btn-ghost text-2xl text-[#071952] font-bold">
           Book Vibe
         </a>
       </div>
@@ -160,7 +160,7 @@ const Nav = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end hidden lg:flex">
         <a className="px-4 py-2 cursor-pointer font-semibold rounded-lg bg-[#34495e] text-white">
           Sign in
         </a>
