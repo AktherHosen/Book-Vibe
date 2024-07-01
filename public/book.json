@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co/M6tCRMT/kindpng-4945926-1.png",
+    "review": "A timeless novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it.",
+    "totalPages": 324,
+    "rating": 4.8,
+    "category": "Fiction",
+    "tags": ["Classic", "Historical", "Legal"],
+    "publisher": "J.B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 2,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co/rbyYMnm/kindpng-5624060-1.png",
+    "review": "A dystopian social science fiction novel and cautionary tale about the future.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Science Fiction",
+    "tags": ["Political", "Classic", "Behaviour"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 3,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://i.ibb.co/hczffsY/pngwing-1-1.png",
+    "review": "A romantic novel that charts the emotional development of the protagonist Elizabeth Bennet.",
+    "totalPages": 279,
+    "rating": 4.5,
+    "category": "Romance",
+    "tags": ["Classic", "Romantic", "Social"],
+    "publisher": "T. Egerton",
+    "yearOfPublishing": 1813
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/ZdhmXY8/kindpng-2193744-1.png",
+    "review": "A tragic story of Jay Gatsby's unrequited love for Daisy Buchanan.",
+    "totalPages": 180,
+    "rating": 4.4,
+    "category": "Fiction",
+    "tags": ["Classic", "Tragedy", "Social"],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 5,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://i.ibb.co/17Mf0t6/kindpng-2592315-1.png",
+    "review": "A story about teenage rebellion and angst narrated by the iconic character, Holden Caulfield.",
+    "totalPages": 214,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["Classic", "Coming", "Psychological"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 6,
+    "bookName": "Moby-Dick",
+    "author": "Herman Melville",
+    "image": "https://i.ibb.co/YDCrrZb/kindpng-4022054-1.png",
+    "review": "An epic tale of the voyage of the whaling ship Pequod, led by Captain Ahab who is hell-bent on catching the giant white whale, Moby Dick.",
+    "totalPages": 585,
+    "rating": 4.1,
+    "category": "Adventure",
+    "tags": ["Classic", "Adventure", "Epic"],
+    "publisher": "Harper & Brothers",
+    "yearOfPublishing": 1851
+  }
+]
