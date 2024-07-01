@@ -1,6 +1,6 @@
 # Book Vibe
 
-## Used package
+## Used Packages
 
 - react icon
 - react hot toast
@@ -14,3 +14,5 @@
 - Add to read and wishlist to localStorage
 - Sorting features based on "Rating", "YearsOfPublishing", "TotalPages"
 - Dynamic BarChart based of pages of Read Books
+
+## Live Link
