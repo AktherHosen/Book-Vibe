@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -54,12 +55,13 @@ const Pricing = () => {
                   <span>No subscription fees, no hidden costs.</span>
                 </li>
               </ul>
-              <button
+              <Link
+                to="/"
                 type="button"
                 className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#16a085] border"
               >
                 Get Started
-              </button>
+              </Link>
             </div>
           </div>
           <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
@@ -121,13 +123,13 @@ const Pricing = () => {
                   <span>Enjoy ad-free reading experience.</span>
                 </li>
               </ul>
-              <a
+              <Link
                 rel="noopener noreferrer"
-                href="#"
+                to="/"
                 className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded bg-[#34495e]  text-violet-400 border"
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
@@ -192,13 +194,13 @@ const Pricing = () => {
                   <span>Start your literary journey today!</span>
                 </li>
               </ul>
-              <a
+              <Link
                 rel="noopener noreferrer"
-                href="#"
+                to="/"
                 className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#16a085] border"
               >
                 Get Started
-              </a>
+              </Link>
             </div>
           </div>
         </div>

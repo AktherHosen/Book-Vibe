@@ -10,9 +10,8 @@ const Banner = () => {
             Books for refreshen up your bookshelf!
           </h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Where Imagination Meets Reality: Unveil the Magic of Reading"
+            "Embark on Literary Journeys That Transcend Time and Space
           </p>
           <Link
             to="/listed-books"
