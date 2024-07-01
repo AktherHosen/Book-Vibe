@@ -17,4 +17,4 @@
 
 ## Live Link
 
-[a link](https://bookvibesbd.netlify.app/)
+[Live](https://bookvibesbd.netlify.app/)
