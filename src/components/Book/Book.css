@@ -1,3 +1,9 @@
 .bg-opacity-reduced {
   background-color: rgba(8, 131, 149, 0.1); /* Use your desired opacity here */
 }
+.bg-opacity-button-primary {
+  background-color: rgba(52, 73, 94, 0.1); /* Use your desired opacity here */
+}
+.bg-opacity-button-secondary {
+  background-color: rgba(22, 160, 133, 0.1); /* Use your desired opacity here */
+}

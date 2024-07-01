@@ -1,5 +1,6 @@
 import React from "react";
 import BannerImg from "../../assets/banner.png";
+import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="hero bg-base-200 min-h-[calc(100vh-40px)] rounded-lg p-10">
@@ -13,9 +14,12 @@ const Banner = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <a className="px-4 py-3 cursor-pointer font-semibold rounded-lg bg-[#088395] text-white">
+          <Link
+            to="/listed-books"
+            className="px-4 py-3 cursor-pointer font-semibold rounded-lg bg-[#34495e] text-white"
+          >
             View the List
-          </a>
+          </Link>
         </div>
 
         <div className="w-full  md:w-1/2 flex justify-center sm:justify-end">

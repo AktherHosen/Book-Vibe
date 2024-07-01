@@ -90,16 +90,25 @@ const Nav = () => {
           </li>
 
           <li>
-            <NavLink>Pages to Read</NavLink>
+            <NavLink
+              to="/pages-to-read"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#071952] border  border-[#071952] outline-none rounded-lg s"
+                  : ""
+              }
+            >
+              Pages to Read
+            </NavLink>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="px-4 py-2 cursor-pointer font-semibold rounded-lg bg-[#088395] text-white">
+        <a className="px-4 py-2 cursor-pointer font-semibold rounded-lg bg-[#34495e] text-white">
           Sign in
         </a>
         <a
-          className="px-4 py-2 cursor-pointer font-semibold rounded-lg ml-3 bg-[#37B7C3] text-white
+          className="px-4 py-2 cursor-pointer font-semibold rounded-lg ml-3 bg-[#16a085] text-white
         "
         >
           Sign up
